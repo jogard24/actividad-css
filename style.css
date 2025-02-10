@@ -1,0 +1,42 @@
+*{
+    background-color: brown;
+    margin: ;
+    padding: ;
+    color: #fff;
+
+}
+body{
+    background-color:  aqua;
+    height: 100vh;
+}
+#parrafo{
+    font-size: 20px;
+}
+[href] {
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(236, 19, 19);
+
+}
+[href = "http://sofiaplus.com"] {
+    color: rgb(248, 25, 25);
+}
+input {
+    height: 60px;
+    width: 100%;
+}
+[type="text"] {
+    background-color: yellow;
+}
+[type="email"] {
+    background-color: green;
+}
+[type="number"] {
+    background-color: blue;
+}
+[href$="org"] {
+    color: blue;
+}
+[href^="https"] {
+    color: yellow;
+}
